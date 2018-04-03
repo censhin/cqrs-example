@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-import { getWidgets } from './services';
+import { getWidgets } from './controller';
 
 const app = express();
 const host = '0.0.0.0';
